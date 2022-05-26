@@ -5,6 +5,7 @@
 }
 body{
     margin: 0;
+    background-color: rgb(217, 236, 236);
 }
 
 a:link{
@@ -23,13 +24,13 @@ li{
 }
 
 .box-menu{
-    float: none;
-    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    right: 0px;
     background: white;
-    padding: 5px 30px;
+    padding: 5px 25px 5px 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: auto;
-    margin-bottom: 20px;
+    width: 100%;
     text-align: right;
     text-transform: capitalize;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -73,18 +74,18 @@ img{
 }
 
 .profil1{
+    position: static;
+    background: white;
     border-radius: 20px;
-    float: none;
-    background: inherit;
     padding: 20px 15px 20px 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 80px 15px 20px 15px;
     width: auto;
-    margin: 0 15px 30px 15px;
 }
 
 .form1{
+    position: static;
     border-radius: 20px;
-    float: none;
     background: white;
     padding: 20px 15px 20px 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
