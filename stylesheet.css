@@ -14,6 +14,9 @@ a:visited{
 a:hover{
     color: blue;
 }
+a{
+    transition: 0.2s;
+}
 
 .box-menu{
     position: fixed;
@@ -40,8 +43,9 @@ a:hover{
 }
 .box-menu a:hover{
     background-color: white;
-    color: aquamarine;
+    color: rgb(44, 173, 130);
     box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.2, 1.2);
 }
 @media screen and (max-width: 600px) {
     .box-menu a:not(:last-child) {display: none;}
@@ -96,8 +100,7 @@ img{
     line-break: auto;
     border-spacing: 0.5rem;
     float: none;
-    padding-left: 10%;
-    padding-right: 5px;
+    padding-left: 30px;
 }
 
 .profil1{
@@ -128,11 +131,11 @@ input[type=text]{
 }
 input[type=text]:focus{
     width: 100%;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(216, 247, 219);
 }
 
 button{
-    transition: 0.5s;
+    transition: 0.2s;
 }
 #tombol-kontak{
     border-radius: 20px;
@@ -145,6 +148,7 @@ button{
 }
 #tombol-kontak:hover{
     opacity: 80%;
+    transform: scale(1.05, 1.05);
 }
 #tombol-kontak:active{
     transform: translateY(4px);
@@ -160,6 +164,7 @@ button{
 }
 #tombol-resume:hover{
     opacity: 80%;
+    transform: scale(1.05, 1.05);
 }
 #tombol-resume:active{
     transform: translateY(4px); 
