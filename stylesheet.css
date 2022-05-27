@@ -170,6 +170,7 @@ button{
     transform: translateY(4px); 
 }
 #tombol-submit{
+    padding: 5px;
     border-radius: 20px;
     box-shadow: 0 4px 3px rgb(170, 170, 170);
     width: 100%;
