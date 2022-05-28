@@ -70,12 +70,12 @@ a{
 
 img{
     border-radius: 50%;
-    margin-right: 15px;
+    margin-right: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #nama{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #role{
@@ -85,26 +85,14 @@ img{
 #kolom1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
-    padding-right: 40px;
+    padding-right: 15px;
 }
 #kolom2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
 }
 
-.table1{
-    border-spacing: 0.5rem;
-    float: left;
-}
-.table2{
-    line-break: auto;
-    border-spacing: 0.5rem;
-    float: none;
-    padding-left: 30px;
-}
-
 .profil1{
-    position: static;
     background: white;
     border-radius: 20px;
     padding: 20px 15px 20px 15px;
@@ -112,12 +100,24 @@ img{
     margin: 80px 15px 20px 15px;
     width: auto;
 }
+.table1{
+    border-spacing: 0.5rem;
+    float: left;
+}
+.table2{ 
+    line-break: auto;
+    border-spacing: 0.5rem;
+    float: none;
+    padding-left: 15px;
+}
+
 
 .form1{
-    position: static;
+    /* display: flex; */
+    /* position: static; */
     border-radius: 20px;
     background: white;
-    padding: 20px 15px 20px 15px;
+    padding: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: auto;
     margin: 0 15px 30px 15px;
@@ -127,11 +127,14 @@ img{
 input[type=text]{
     width: 100%;
     display: block;
-    transition: ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 input[type=text]:focus{
     width: 100%;
     background-color: rgb(216, 247, 219);
+}
+input[type=text]:focus::placeholder{
+    color: transparent;
 }
 
 button{
@@ -144,7 +147,7 @@ button{
     border-color: blue;
     background-color: blue;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 15px;
 }
 #tombol-kontak:hover{
     opacity: 80%;
@@ -160,7 +163,7 @@ button{
     border-color: green;
     background-color: white;
     color: green;
-    padding: 10px 20px;
+    padding: 10px 15px;
 }
 #tombol-resume:hover{
     opacity: 80%;
