@@ -37,31 +37,31 @@
                         <td><button id="tombol-resume"><span>Resume</span></button></td>
                     </tr>    
             </table>     
-            <table class="table2">
+            <table id="table2">
                     <tr>
                         <td id="kolom1">Availability</td>
                         <td>:</td>
-                        <td id="kolom2">Full Time</td>
+                        <td class="kolom2" id="p_availability">Full Time</td>
                     </tr>
                     <tr>
                         <td id="kolom1">Usia</td>
                         <td>:</td>
-                        <td id="kolom2">30 Tahun</td>
+                        <td class="kolom2" id="p_usia">30 Tahun</td>
                     </tr>
                     <tr>
                         <td id="kolom1">Lokasi</td>
                         <td>:</td>
-                        <td id="kolom2">Yogyakarta</td>
+                        <td class="kolom2" id="p_lokasi">Yogyakarta</td>
                     </tr>
                     <tr>
                         <td id="kolom1">Pengalaman</td>
                         <td>:</td>
-                        <td id="kolom2">2 Tahun</td>
+                        <td class="kolom2" id="p_exp">2 Tahun</td>
                     </tr>
                     <tr>
                         <td id="kolom1">Email</td>
                         <td>:</td>
-                        <td id="kolom2">latihan@gmail.com</td>
+                        <td class="kolom2" id="p_email">latihan@gmail.com</td>
                     </tr>
             </table>
         </div>
@@ -73,7 +73,7 @@
                 <label for="role">Role</label><br>
                 <input type="text" name="role" placeholder="Role Anda"><br>
                 <label for="availability">Availability</label><br>
-                <input type="text" name="availability" placeholder="Ketersediaan"><br>
+                <input type="text" id="avai" placeholder="Ketersediaan"><br>
                 <label for="usia">Usia</label><br>
                 <input type="text" name="usia" placeholder="Usia Anda"><br>
                 <label for="lokasi">Lokasi</label><br>
@@ -82,7 +82,7 @@
                 <input type="text" name="exp" placeholder="Tahun Pengalaman Anda"><br>
                 <label for="email">Email</label><br>
                 <input type="text" name="email" placeholder="Email Anda"><br>
-                <button id="tombol-submit"><span>Submit</span></button>
+                <button id="tombol-submit" onclick="submit_data()"><span>Submit</span></button>
             </form>
         </div>
     </body>
