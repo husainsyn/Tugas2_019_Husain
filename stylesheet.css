@@ -87,7 +87,7 @@ img{
     font-weight: bold;
     padding-right: 15px;
 }
-#kolom2{
+.kolom2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
 }
@@ -104,7 +104,7 @@ img{
     border-spacing: 0.5rem;
     float: left;
 }
-.table2{ 
+#table2{ 
     line-break: auto;
     border-spacing: 0.5rem;
     float: none;
